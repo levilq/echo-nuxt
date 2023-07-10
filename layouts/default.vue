@@ -5,9 +5,9 @@
 <template>
   <div class="flex flex-col h-screen text-white">
     <div class="bg-blue-500 flex-1 flex overflow-y-hidden">
-      <div class="sidebar bg-black w-48 flex-none flex flex-col hidden md:flex ">
+      <div class="sidebar bg-black w-60 flex-none flex flex-col hidden md:flex ">
           <div>
-            <img class="h-16 mx-auto mt-2" src="/images/echo-wb-logo.png">
+            <img class="h-16 mx-auto mt-2" src="/images/echo-wb-logo.png" alt="logo">
           </div>
           <MoleculesMenuBar />
 
