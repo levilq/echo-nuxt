@@ -19,7 +19,7 @@
           <OrganismsRecommendedAnimation></OrganismsRecommendedAnimation>
         </div>
         <div>
-          <img class="hidden md:flex h-[22rem] pt-4 overflow-hidden object-cover"
+          <img class="hidden md:flex h-[19rem] pt-4 overflow-hidden object-cover"
                src="/images/banner.png" alt="artist">
         </div>
 
@@ -29,7 +29,7 @@
 
 
       <!--        Top Charts-->
-      <div class="px-6 invisible md:visible my-auto">
+      <div class=" pl-6 hidden md:flex flex-col my-auto">
         <div class="flex justify-between">
           <h1 class="text-3xl font-bold">Top Charts</h1>
           <MoleculesMoreButton>больше музыки</MoleculesMoreButton>
@@ -40,7 +40,59 @@
       </div>
       <!--        End Charts-->
     </div>
+
+
+
+    <div class="flex justify-between py-6 ">
+      <h1 class="md:text-3xl font-bold">Исследуйте</h1>
+      <MoleculesMoreButton>больше музыки</MoleculesMoreButton>
+    </div>
+
+    <div class="flex overflow-x-auto justify-between grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5">
+        <MoleculesSingleCard></MoleculesSingleCard>
+        <MoleculesSingleCard></MoleculesSingleCard>
+        <MoleculesSingleCard></MoleculesSingleCard>
+        <MoleculesSingleCard></MoleculesSingleCard>
+        <MoleculesSingleCard></MoleculesSingleCard>
+
+    </div>
+
+
+    <div class="flex justify-between pt-10 ">
+      <h1 class="text-3xl font-bold">Слушайте</h1>
+      <MoleculesMoreButton>больше музыки</MoleculesMoreButton>
+    </div>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-x-6">
+      <div>
+        <MoleculesSongCard></MoleculesSongCard>
+        <MoleculesSongCard></MoleculesSongCard>
+        <MoleculesSongCard></MoleculesSongCard>
+        <MoleculesSongCard></MoleculesSongCard>
+        <MoleculesSongCard></MoleculesSongCard>
+        <MoleculesSongCard></MoleculesSongCard>
+        <MoleculesSongCard></MoleculesSongCard>
+        <MoleculesSongCard></MoleculesSongCard>
+      </div>
+      <div>
+        <MoleculesSongCard></MoleculesSongCard>
+        <MoleculesSongCard></MoleculesSongCard>
+        <MoleculesSongCard></MoleculesSongCard>
+        <MoleculesSongCard></MoleculesSongCard>
+        <MoleculesSongCard></MoleculesSongCard>
+        <MoleculesSongCard></MoleculesSongCard>
+        <MoleculesSongCard></MoleculesSongCard>
+        <MoleculesSongCard></MoleculesSongCard>
+      </div>
+    </div>
   </div>
+
+
+
+
+
+
+
+
 </template>
 
 <style scoped>

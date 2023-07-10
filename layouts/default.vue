@@ -14,6 +14,7 @@
       </div>
       <div class="content-area bg-zinc-900 flex-1 overflow-y-auto">
         <slot />
+        <OrganismsFooter />
       </div>
     </div>
     <div class="bg-blue-300">bottom</div>
